@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルなWEBページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ヘッダー</h1>
+        <nav>
+            <ul>
+                <li><a href="#">リンク1</a></li>
+                <li><a href="#">リンク2</a></li>
+                <li><a href="#">リンク3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main-visual">
+        <h2>キービジュアル</h2>
+    </section>
+    <section id="product-introduction">
+        <h2>商品紹介</h2>
+        <div class="products">
+            <div class="product">商品1</div>
+            <div class="product">商品2</div>
+            <div class="product">商品3</div>
+        </div>
+        <button>次へ</button>
+    </section>
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">メール:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">送信</button>
+        </form>
+    </section>
+</body>
+</html>
